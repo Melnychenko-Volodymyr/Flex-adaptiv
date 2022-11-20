@@ -1,0 +1,215 @@
+	
+body {
+	background-color: #eeeeee;
+	font-family: Montserrat, sans-serif;
+}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:active {
+	text-decoration: underline;
+}
+
+
+@media screen and (min-width:1200px) {	
+	.header1 {
+		background-color: #2040a3;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		height: 70px;
+	}	
+	.logo {
+		display: block;
+		width: 35%;
+		margin-left: 5%;
+	}	
+	.phone {
+		font-size: 24px;
+		color: white;	
+	}
+	.txt_header1 {
+		font-size: 18px;
+		color: white;
+	}	
+	.txt_header1 > a {
+		color: white;
+	}
+	.lang {
+		margin-right: 5%;
+	}	
+	.header2 {
+		background-color: #2040a3;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		height: 70px;
+	}
+	.search {
+		margin-left: 5%;
+	}	
+	.input_search {
+		height: 30px;
+		width: 300px;
+		border: 1px solid white;
+		border-radius: 8px;
+	}
+	.button_search {
+		height: 34px;
+		width: 80px;
+		margin-left: 10px;	
+	}
+	.topics {
+		color: black;
+		margin-left: 5%;
+		margin-top: 15px;
+	}
+	.h1 {
+		color: black;
+		margin-left: 5%;
+		margin-top:40px;
+	}
+	.main {
+		background-color: #eeeeee;
+		display: flex;
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+	.left {
+		background-color: white;
+		width: 20%;
+		padding: 3%;
+	}	
+	.left > a {
+		color: #2040a3;
+		font-size: 20px;	
+	}
+	.right {
+		width: 70%;
+		margin-left: 2%;	
+	}
+	.select_sort {
+		width: 200px;
+		height: 50px;
+		margin-bottom: 20px;
+	}
+	.preparat {
+		background-color: white;
+		display: flex;
+		align-items: center;
+		margin-bottom: 20px;
+	}
+	.preparat_pic {
+		width: 250px;
+	}	
+	.preparat_text {
+		width: 70%;
+		margin-left: 10px;
+	}	
+	.preparat_name {
+		font-size: 22px;
+	}	
+	.preparat_price {
+		font-size: 32px;
+	}
+	.koshik {
+		margin-right: 15px;
+	}	
+}	
+
+@media screen and (max-width:1200px) {	
+	.header1 {
+		background-color: #2040a3;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		height: 70px;
+	}	
+	.logo {
+		display: block;
+		width: 80%;
+		margin-left: 10%;
+		margin-right: 10%;
+	}	
+	.phone {
+		display: none;	
+	}
+	.txt_header1 {
+		display: none;
+	}		
+	.header2 {
+		background-color: #2040a3;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-bottom: 20px;
+		height: 70px;
+	}
+	.search {
+		margin-left: 10%;
+		display: flex;
+	}	
+	.input_search {
+		height: 30px;
+		width: 400px;
+		border: 1px solid white;
+		border-radius: 8px;
+	}
+	.button_search {
+		height: 34px;
+		width: 100px;
+		margin-left: 10px;
+		margin-right: 10%;	
+	}
+	.topics {
+		color: black;
+		margin-left: 5%;
+		margin-top: 15px;
+	}
+	.h1 {
+		color: black;
+		margin-left: 5%;
+		margin-top: 20px;
+	}
+	.left {
+		display: none;
+	}
+	.right {
+		width: 90%;
+		margin-left: 2%;	
+	}
+	.select_sort {
+		width: 70%;
+		height: 50px;
+		margin-left: 5%;
+		margin-bottom: 20px;
+	}
+	.preparat {
+		background-color: white;
+		display: flex;
+		align-items: center;
+		margin-bottom: 20px;
+	}
+	.preparat_pic {
+		width: 200px;
+	}	
+	.preparat_text {
+		width: 70%;
+		margin-left: 10px;
+	}	
+	.preparat_name {
+		font-size: 22px;
+	}	
+	.preparat_price {
+		font-size: 32px;
+	}
+	.koshik {
+		margin-right: 15px;
+	}		
+}	
