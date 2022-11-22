@@ -17,7 +17,7 @@ a:active {
 }
 
 
-@media screen and (min-width:1200px) {	
+@media screen and (min-width:1100px) {	
 	.header1 {
 		background-color: #2040a3;
 		display: flex;
@@ -123,10 +123,12 @@ a:active {
 	}	
 }	
 
-@media screen and (max-width:1200px) {	
+@media screen and (max-width:1100px) {	
 	.header1 {
+		width: 100%;
 		background-color: #2040a3;
 		display: flex;
+		flex-wrap: wrap;
 		justify-content: space-between;
 		align-items: center;
 		height: 70px;
@@ -144,8 +146,10 @@ a:active {
 		display: none;
 	}		
 	.header2 {
+		width: 100%;
 		background-color: #2040a3;
 		display: flex;
+		flex-wrap: wrap;
 		justify-content: space-between;
 		align-items: center;
 		margin-bottom: 20px;
@@ -157,15 +161,15 @@ a:active {
 	}	
 	.input_search {
 		height: 30px;
-		width: 400px;
+		width: 60%;
 		border: 1px solid white;
 		border-radius: 8px;
 	}
 	.button_search {
 		height: 34px;
-		width: 100px;
+		width: 30%;
 		margin-left: 10px;
-		margin-right: 10%;	
+		margin-right: 5%;	
 	}
 	.topics {
 		color: black;
@@ -181,27 +185,34 @@ a:active {
 		display: none;
 	}
 	.right {
-		width: 90%;
+		width: 95%;
 		margin-left: 2%;	
 	}
 	.select_sort {
-		width: 70%;
+		width: 90%;
 		height: 50px;
 		margin-left: 5%;
 		margin-bottom: 20px;
 	}
 	.preparat {
+		width: 100%;
 		background-color: white;
 		display: flex;
+		flex-wrap: wrap;	
 		align-items: center;
 		margin-bottom: 20px;
 	}
+	.container_pic {
+		width: 90%;
+	}	
 	.preparat_pic {
-		width: 200px;
+		width: 90%;
+		margin: 5%;
 	}	
 	.preparat_text {
-		width: 70%;
-		margin-left: 10px;
+		width: 90%;
+		margin: 5%;
+		text-align: center;
 	}	
 	.preparat_name {
 		font-size: 22px;
@@ -210,6 +221,7 @@ a:active {
 		font-size: 32px;
 	}
 	.koshik {
-		margin-right: 15px;
-	}		
+		margin-left: 35%;
+		margin-bottom: 10px;
+	}
 }	
